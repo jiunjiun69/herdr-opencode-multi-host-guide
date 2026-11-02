@@ -1,0 +1,35 @@
+# Local secrets and config; keep examples only
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+id_ed25519*
+*.pub
+**/authorized_keys
+**/known_hosts
+**/opencode.json
+**/config.toml
+**/litellm-key.txt
+**/*-key.txt
+**/credentials*
+**/auth.json
+
+# Local tool runtime
+.herdr/
+.config/
+.cache/
+logs/
+*.log
+*.sock
+*.lock
+*.tar.gz
+*.zip
+*.exe
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

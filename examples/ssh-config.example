@@ -1,0 +1,15 @@
+# Windows: %USERPROFILE%\.ssh\config
+# Documentation-only addresses (RFC 5737). Replace with an authorized host.
+Host ubuntu-01
+    HostName 192.0.2.10
+    User devuser
+    Port 22
+    IdentityFile ~/.ssh/id_ed25519_herdr
+    IdentitiesOnly yes
+
+Host ubuntu-02
+    HostName 192.0.2.20
+    User devuser
+    Port 22
+    IdentityFile ~/.ssh/id_ed25519_herdr
+    IdentitiesOnly yes
